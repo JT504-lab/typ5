@@ -27,13 +27,28 @@
 // }
 
 
-let c = parseInt(prompt('Enter a number'))
+// let c = parseInt(prompt('Enter a number'))
 
-let d = c % 2
-console.log(2)
+// let d = c % 2
+// console.log(2)
 
-if(d == 1){
-    alert("It's an odd number")
-} else if(d == 0){
-    alert("It's an even")
+// if(d == 1){
+//     alert("It's an odd number")
+// } else if(d == 0){
+//     alert("It's an even")
+// }
+
+let a = parseInt(prompt('Our business whants to keep track of the users range of age'))
+
+if(a <= 12){
+    alert('the user is a child')
+    console.log(a)
+} else if(a <= 20){
+    alert('the user is a teenager')
+    console.log(a)
+} else if(a >= 20){
+    alert('the user is and elder , good day sir/madam')
+    console.log(a)
 }
+
+
